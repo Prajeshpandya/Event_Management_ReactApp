@@ -1,0 +1,21 @@
+.newsletter input,
+.newsletter button {
+  font: inherit;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0;
+  background-color: var(--color-gray-800);
+  color: white;
+  border: none;
+}
+
+.newsletter button {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: var(--color-gray-500);
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: var(--color-primary-300);
+  color: var(--color-gray-800);
+}

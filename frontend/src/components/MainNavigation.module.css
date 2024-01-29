@@ -1,0 +1,25 @@
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.list a {
+  /* background-color: var(--color-gray-500); */
+  color: var(--color-primary-200);
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.list li a:hover,
+.list li a:active,
+.list li a.active {
+  /* background-color: var(--color-primary-600); */
+  color: var(--color-primary-900);
+}
